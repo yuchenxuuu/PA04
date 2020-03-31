@@ -1,15 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb0964e8-36ba-43a1-b90b-023b89738f6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs131/pa4/CarsTunnels/ConcreteFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs131/pa4/CarsTunnels/ConcreteFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs131/pa4/CarsTunnels/PriorityScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs131/pa4/CarsTunnels/PriorityScheduler.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZaHGsnFWNrKxiHU12sIFcYoB3g" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb0964e8-36ba-43a1-b90b-023b89738f6c" name="Default Changelist" comment="" />
+      <created>1585070192722</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585070192722</updated>
+      <workItem from="1585070199255" duration="258000" />
+      <workItem from="1585613809023" duration="842000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="374" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1585070199935">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state x="374" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1585630871355">
+      <screen x="0" y="23" width="1440" height="836" />
     </state>
+    <state x="374" y="273" key="com.intellij.ide.util.TipDialog/0.23.1440.836@0.23.1440.836" timestamp="1585630871355" />
     <state x="374" y="274" key="com.intellij.ide.util.TipDialog/0.23.1440.838@0.23.1440.838" timestamp="1585070199935" />
   </component>
 </project>

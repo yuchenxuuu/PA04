@@ -1,6 +1,8 @@
 package cs131.pa4.CarsTunnels;
 
 import java.util.Collection;
+import java.util.Comparator;
+import java.util.PriorityQueue;
 
 import cs131.pa4.Abstract.Scheduler;
 import cs131.pa4.Abstract.Tunnel;
@@ -19,17 +21,32 @@ public class PriorityScheduler extends Scheduler{
 	 * @param name the name of the priority scheduler
 	 * @param tunnels the tunnels where the vehicles will be scheduled to
 	 */
+	private Comparator<Vehicle> vpriority = new Comparator<Vehicle>() {
+		@Override
+		public int compare(Vehicle v1, Vehicle v2) {
+			return v1.getPriority() - v2.getPriority();
+		}
+	};
+	private PriorityQueue<Vehicle> priorityqueue = new PriorityQueue<>(vpriority);
+
+	/**
+	 *
+	 * @param name
+	 * @param tunnels
+	 */
 	public PriorityScheduler(String name, Collection<Tunnel> tunnels) {
 		super(name, tunnels);
 	}
 
 	@Override
 	public Tunnel admit(Vehicle vehicle) {
+
 		return null;
 	}
 	
 	@Override
 	public void exit(Vehicle vehicle) {
+
 	}
 	
 }

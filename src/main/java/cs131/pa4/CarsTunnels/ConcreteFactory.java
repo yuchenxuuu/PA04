@@ -17,17 +17,17 @@ public class ConcreteFactory implements Factory {
 
     @Override
     public Tunnel createNewBasicTunnel(String name){
-    		throw new UnsupportedOperationException("Not supported yet.");    
+        return new BasicTunnel(name);
     }
 
     @Override
     public Vehicle createNewCar(String name, Direction direction){
-    		throw new UnsupportedOperationException("Not supported yet.");    
+        return new Car(name, direction);
     }
 
     @Override
     public Vehicle createNewSled(String name, Direction direction){
-    		throw new UnsupportedOperationException("Not supported yet.");    
+         return new Sled(name, direction);
     }
 
     @Override
