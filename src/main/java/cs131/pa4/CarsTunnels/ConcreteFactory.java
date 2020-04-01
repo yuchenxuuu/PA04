@@ -32,6 +32,6 @@ public class ConcreteFactory implements Factory {
 
     @Override
     public Scheduler createNewPriorityScheduler(String name, Collection<Tunnel> tunnels){
-    		throw new UnsupportedOperationException("Not supported yet.");
+    		return new PriorityScheduler(name, tunnels);
     }
 }

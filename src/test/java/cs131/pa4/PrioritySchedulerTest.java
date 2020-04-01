@@ -22,7 +22,7 @@ public class PrioritySchedulerTest {
 
     private final String prioritySchedulerName = "SCHEDULER";
     
-    private static final int NUM_RUNS = 1;
+    private static final int NUM_RUNS = 10;
 
     @BeforeEach
     public void setUp() {

@@ -24,17 +24,20 @@ public class BasicTunnel extends Tunnel{
 	private int sledCount;//the count of sled inside the tunnel
 	private Direction dir;//the direction of the vehicle
 	private List<Vehicle> vlist;//vlist is used to record what kind of vehicle is in the tunnel
+	private boolean isFull;
 
 	public BasicTunnel(String name) {
 		super(name);
 		carCount = 0;
 		sledCount = 0;
 		vlist = new ArrayList<>();
+		isFull = false;
 	}
 
 	@Override
-	protected boolean tryToEnterInner(Vehicle vehicle) {
+	public synchronized boolean tryToEnterInner(Vehicle vehicle) {
 		if(vlist.size() == 3){//if the tunnel is already full
+			isFull = true;
 			return false;
 		}
 		if(vlist.size() == 0 && vehicle != null){//if the tunnel is empty
@@ -43,6 +46,7 @@ public class BasicTunnel extends Tunnel{
 				carCount ++;
 			}else if(vehicle instanceof Sled){
 				sledCount ++;
+				isFull = true;
 			}
 			vlist.add(vehicle);
 			return true;
@@ -64,20 +68,24 @@ public class BasicTunnel extends Tunnel{
 	}
 
 	@Override
-	protected void exitTunnelInner(Vehicle vehicle) {
+	public synchronized void exitTunnelInner(Vehicle vehicle) {
 		if(vehicle instanceof Car){
 			carCount --;
 		}else{
 			sledCount --;
+
 			this.dir = null;
 		}
 
 		for(Vehicle v: vlist){//remove the vehicle from the list
 			if(v.equals(vehicle)){
 				vlist.remove(v);
+				isFull = false;
 				break;
 			}
 		}
 	}
+
+
 	
 }

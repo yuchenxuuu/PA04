@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bb0964e8-36ba-43a1-b90b-023b89738f6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs131/pa4/CarsTunnels/BasicTunnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs131/pa4/CarsTunnels/BasicTunnel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cs131/pa4/CarsTunnels/ConcreteFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs131/pa4/CarsTunnels/ConcreteFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cs131/pa4/CarsTunnels/PriorityScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs131/pa4/CarsTunnels/PriorityScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cs131/pa4/PrioritySchedulerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cs131/pa4/PrioritySchedulerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +28,77 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
+  <component name="RunManager" selected="JUnit.cs131.pa4 in pa4">
+    <configuration name="PrioritySchedulerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pa4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs131.pa4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cs131.pa4" />
+      <option name="MAIN_CLASS_NAME" value="cs131.pa4.PrioritySchedulerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrioritySchedulerTest.Car_Enter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pa4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs131.pa4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cs131.pa4" />
+      <option name="MAIN_CLASS_NAME" value="cs131.pa4.PrioritySchedulerTest" />
+      <option name="METHOD_NAME" value="Car_Enter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrioritySchedulerTest.Sled_Enter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pa4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs131.pa4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cs131.pa4" />
+      <option name="MAIN_CLASS_NAME" value="cs131.pa4.PrioritySchedulerTest" />
+      <option name="METHOD_NAME" value="Sled_Enter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cs131.pa4 in pa4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pa4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs131.pa4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cs131.pa4" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.cs131.pa4 in pa4" />
+        <item itemvalue="JUnit.PrioritySchedulerTest" />
+        <item itemvalue="JUnit.PrioritySchedulerTest.Sled_Enter" />
+        <item itemvalue="JUnit.PrioritySchedulerTest.Car_Enter" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -37,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585070192722</updated>
       <workItem from="1585070199255" duration="258000" />
-      <workItem from="1585613809023" duration="842000" />
+      <workItem from="1585613809023" duration="13561000" />
     </task>
     <servers />
   </component>
@@ -45,6 +118,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1358" height="273" key="GridCell.Tab.0.bottom" timestamp="1585714395588">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state width="1358" height="273" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1585714395588" />
+    <state width="1358" height="273" key="GridCell.Tab.0.center" timestamp="1585714395587">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state width="1358" height="273" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1585714395587" />
+    <state width="1358" height="273" key="GridCell.Tab.0.left" timestamp="1585714395586">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state width="1358" height="273" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1585714395586" />
+    <state width="1358" height="273" key="GridCell.Tab.0.right" timestamp="1585714395587">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state width="1358" height="273" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1585714395587" />
+    <state width="1358" height="252" key="GridCell.Tab.1.bottom" timestamp="1585709656185">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state width="1358" height="252" key="GridCell.Tab.1.bottom/0.23.1440.835@0.23.1440.835" timestamp="1585709656185" />
+    <state width="1358" height="252" key="GridCell.Tab.1.center" timestamp="1585709656183">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state width="1358" height="252" key="GridCell.Tab.1.center/0.23.1440.835@0.23.1440.835" timestamp="1585709656183" />
+    <state width="1358" height="252" key="GridCell.Tab.1.left" timestamp="1585709656181">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state width="1358" height="252" key="GridCell.Tab.1.left/0.23.1440.835@0.23.1440.835" timestamp="1585709656181" />
+    <state width="1358" height="252" key="GridCell.Tab.1.right" timestamp="1585709656184">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state width="1358" height="252" key="GridCell.Tab.1.right/0.23.1440.835@0.23.1440.835" timestamp="1585709656184" />
     <state x="374" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1585630871355">
       <screen x="0" y="23" width="1440" height="836" />
     </state>
